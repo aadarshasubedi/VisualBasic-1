@@ -19,6 +19,7 @@ Public Class GasPump
     Private Const regPrice As Double = 15.05 'Static price for the regular gas
     Private Const primePrice As Double = 15.75 'Static price for the premium gas
 
+   'Making the subroutine
     Public Sub Start()
         ReadInput() 'Reads the customers input
         Calculate() 'Calculates the total the customer needs to pay
